@@ -1,0 +1,16 @@
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./src/app/components/app/app.scss?vue&type=style&index=0&lang=css ***!
+  \************************************************************************************************************************************************************************************************************/
+* {
+  font-family: Verdana;
+  margin: 0;
+  box-sizing: border-box;
+}
+* input[type=number]::-webkit-inner-spin-button,
+* input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+* input:focus, * textarea:focus, * select:focus {
+  outline: none;
+}

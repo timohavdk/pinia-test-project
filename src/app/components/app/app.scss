@@ -1,0 +1,82 @@
+* {
+  font-family: Verdana;
+  margin: 0;
+  box-sizing: border-box;
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  &__header {
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gray;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+
+  &__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: azure;
+    border: 0;
+    outline: none;
+
+    &_delete {
+      background-color: brown;
+    }
+  }
+
+  &__posts-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &__post {
+    width: 280px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: coral;
+    color: beige;
+  }
+
+  &__post-header {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  &__post-body {
+    font-size: 14px;
+  }
+}
